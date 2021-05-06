@@ -32,7 +32,16 @@ void StringAutomaton::S1(const std::string& input) {
 }
 
 void StringAutomaton::S2(const std::string& input) {
-    if (input[index] != '\'') {
+    if (index >= input.size()) {
+        Serr();
+    }
+    else if (input[index] == '\n') {
+        newLines++;
+        index++;
+        inputRead++;
+        S2(input);
+    }
+    else if (input[index] != '\'') {
         inputRead++;
         index++;
         S2(input);
@@ -54,6 +63,7 @@ void StringAutomaton::S3(const std::string& input) {
         S2(input);
     }
     else {
+        //inputRead++;
         return;
     }
 }
@@ -65,6 +75,7 @@ void StringAutomaton::S4(const std::string& input) {
         S2(input);
     }
     else {
+        //inputRead++;
         return;
     }
 }

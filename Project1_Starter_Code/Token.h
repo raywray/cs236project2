@@ -28,9 +28,9 @@ class Token
 {
 private:
     // TODO: add member variables for information needed by Token
-    std::string tokenValue = "";
-    int lineNumber = 0;
-    TokenType tokenType;
+    std::string description = "";
+    int line;
+    TokenType type;
 
 public:
     Token(TokenType type, std::string description, int line);

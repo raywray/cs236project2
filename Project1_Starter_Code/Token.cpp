@@ -1,4 +1,5 @@
 #include "Token.h"
+#include <sstream>
 
 // read from the input string
 //Create tokens for the lexer
@@ -20,16 +21,16 @@
 */
 Token::Token(TokenType type, std::string description, int line) {
     // TODO: initialize all member variables
-    std::string tokenValue = "";
-    int lineNumber = -1;
-    //tokenType = ERROR;
+    this->description = description;
+    this->line = line;
+    this->type = type;
 }
 
 
 std::string Token::toString() {
     std::string myToken = "";
     std::string output = "";
-    switch (tokenType) {
+    switch (type) {
         case TokenType::COMMA:
             myToken = "COMMA";
             break;
@@ -86,6 +87,7 @@ std::string Token::toString() {
             break;
 
     }
-    //output = "(" + myToken + ",\"" + tokenValue + "\"," + toString(lineNumber) + ")";
-    return myToken;
+    std::stringstream outputss;
+    outputss << "(" << myToken << ",\"" << description << "\"," << line << ")";
+    return outputss.str();
 }

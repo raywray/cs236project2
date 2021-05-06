@@ -2,6 +2,7 @@
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
 #include <iostream>
+#include <sstream>
 
 using namespace std;
 
@@ -14,9 +15,17 @@ Lexer::~Lexer() {
 }
 
 std::string Lexer::toString() {
+    stringstream tokenss;
     for (int i = 0; i < tokens.size(); i++) {
-        cout << tokens[i]->toString();
+        tokenss << tokens[i]->toString() << endl;
     }
+    return tokenss.str();
+}
+
+std::string Lexer::totalTokens() {
+    stringstream totalTss;
+    totalTss << "Total Tokens = " << tokens.size() << endl;
+    return totalTss.str();
 }
 
 void Lexer::CreateAutomata() {
@@ -25,19 +34,19 @@ void Lexer::CreateAutomata() {
     // TODO: Add the other needed automata here
     automata.push_back(new AddAutomaton());
     automata.push_back(new CommaAutomaton());
-    automata.push_back(new CommentAutomaton());
-    automata.push_back(new EOFAutomaton());
-    automata.push_back(new FactsAutomaton());
-    automata.push_back(new IDAutomaton());
     automata.push_back(new LeftParenAutomaton());
+    automata.push_back(new RightParenAutomaton());
     automata.push_back(new MultiplyAutomaton());
     automata.push_back(new PeriodAutomaton());
     automata.push_back(new QMarkAutomaton());
     automata.push_back(new QueriesAutomaton());
-    automata.push_back(new RightParenAutomaton());
     automata.push_back(new RulesAutomaton());
     automata.push_back(new SchemesAutomaton());
+    automata.push_back(new FactsAutomaton());
+    automata.push_back(new CommentAutomaton());
     automata.push_back(new StringAutomaton());
+    automata.push_back(new IDAutomaton());
+    //automata.push_back(new EOFAutomaton());
     automata.push_back(new UndefinedAutomaton());
 }
 
@@ -61,7 +70,7 @@ void Lexer::Run(std::string& input) {
             int inputRead = automata[i]->Start(input);
             if (inputRead > maxRead) {
                 maxRead = inputRead;
-                maxAutomaton = automata[i];
+                maxAutomaton = automata[i]; //look here
             }
         }
         if (maxRead > 0) {
@@ -85,6 +94,7 @@ void Lexer::Run(std::string& input) {
             input.erase(0, 1);
             maxRead = 0;
         }
+
     }
     Token *newToken = new Token(TokenType::EOF_TYPE, "", lineNumber);
     tokens.push_back(newToken);

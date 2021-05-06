@@ -16,20 +16,21 @@ void CommentAutomaton::S0(const std::string& input) {
 }
 
 void CommentAutomaton::S1(const std::string& input) {
-    if (input[index] != '\n' && input[index] != '|') {
+    if (input[index] == '|') {
         inputRead++;
         index++;
-        S2(input);
+        S5(input);
     }
     else if (input[index] == '\n') {
         inputRead++;
         index++;
+        newLines++;
         S3(input);
     }
-    else if (input[index] == '|') {
+    else if (input[index] != '\n' && input[index] != '|') {
         inputRead++;
         index++;
-        S5(input);
+        S2(input);
     }
     else {
         Serr();
@@ -53,10 +54,12 @@ void CommentAutomaton::S2(const std::string& input) {
 }
 
 void CommentAutomaton::S3(const std::string& input) {
+    inputRead--;
     return;
 }
 
 void CommentAutomaton::S4(const std::string& input) {
+    inputRead--;
     return;
 }
 
@@ -77,7 +80,16 @@ void CommentAutomaton::S5(const std::string& input) {
 }
 
 void CommentAutomaton::S6(const std::string& input) {
-    if (input[index] != '|') {
+    if (index == input.size()) {
+        Serr();
+    }
+    else if (input[index] == '\n') {
+        inputRead++;
+        index++;
+        newLines++;
+        S6(input);
+    }
+    else if (input[index] != '|') {
         inputRead++;
         index++;
         S6(input);
@@ -103,6 +115,7 @@ void CommentAutomaton::S7(const std::string& input) {
 }
 
 void CommentAutomaton::S8(const std::string& input) {
+    //inputRead++;
     return;
 }
 
@@ -120,5 +133,6 @@ void CommentAutomaton::S9(const std::string& input) {
 }
 
 void CommentAutomaton::S10(const std::string& input) {
+    //inputRead++;
     return;
 }

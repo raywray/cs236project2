@@ -76,9 +76,22 @@ include CMakeFiles/Project1_Starter_Code.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Project1_Starter_Code.dir/flags.make
 
+CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/main.cpp.o -c /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/main.cpp
+
+CMakeFiles/Project1_Starter_Code.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/main.cpp > CMakeFiles/Project1_Starter_Code.dir/main.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/main.cpp -o CMakeFiles/Project1_Starter_Code.dir/main.cpp.s
+
 CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
 CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o: ../ColonAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o -c /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/ColonAutomaton.cpp
 
 CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.i: cmake_force
@@ -91,7 +104,7 @@ CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.s: cmake_force
 
 CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
 CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o: ../ColonDashAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o -c /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/ColonDashAutomaton.cpp
 
 CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.i: cmake_force
@@ -104,7 +117,7 @@ CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.s: cmake_force
 
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o -c /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Lexer.cpp
 
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.i: cmake_force
@@ -114,19 +127,6 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.i: cmake_force
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Lexer.cpp -o CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.s
-
-CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
-CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/main.cpp.o -c /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/main.cpp
-
-CMakeFiles/Project1_Starter_Code.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/main.cpp > CMakeFiles/Project1_Starter_Code.dir/main.cpp.i
-
-CMakeFiles/Project1_Starter_Code.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/main.cpp -o CMakeFiles/Project1_Starter_Code.dir/main.cpp.s
 
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o: ../Token.cpp
@@ -351,10 +351,10 @@ CMakeFiles/Project1_Starter_Code.dir/Undefined.cpp.s: cmake_force
 
 # Object files for target Project1_Starter_Code
 Project1_Starter_Code_OBJECTS = \
+"CMakeFiles/Project1_Starter_Code.dir/main.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o" \
-"CMakeFiles/Project1_Starter_Code.dir/main.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/Comma.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/LeftParen.cpp.o" \
@@ -376,10 +376,10 @@ Project1_Starter_Code_OBJECTS = \
 # External object files for target Project1_Starter_Code
 Project1_Starter_Code_EXTERNAL_OBJECTS =
 
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/main.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o
-Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/main.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Comma.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/LeftParen.cpp.o

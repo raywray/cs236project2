@@ -62,6 +62,7 @@ void QueriesAutomaton::S5(const std::string& input) {
     if (input[index] == 'e') {
         inputRead++;
         index++;
+        S6(input);
     }
     else {
         Serr();
@@ -70,6 +71,7 @@ void QueriesAutomaton::S5(const std::string& input) {
 
 void QueriesAutomaton::S6(const std::string& input) {
     if (input[index] == 's') {
+        inputRead++;
         return;
     }
     else {

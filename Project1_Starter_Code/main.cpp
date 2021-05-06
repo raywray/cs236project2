@@ -1,18 +1,25 @@
 #include "Lexer.h"
 #include <fstream>
+#include <iostream>
+#include <sstream>
+
+using namespace std;
 
 int main(int argc, char** argv) {
 
     Lexer* lexer = new Lexer();
 
     // TODO
-    std::ifstream in(argv[1]);
-    //TODO: check if file is open
-    if(!in) {
-        return 1;
-    }
-    lexer->Run(reinterpret_cast<std::string &>(argv[1]));
-    lexer->toString();
+    std::fstream in(argv[1]);
+
+    stringstream buffer;
+    buffer<<in.rdbuf();
+    string inputString = buffer.str();
+    //cout << inputString << endl;
+    lexer->Run(inputString);
+    cout << lexer->toString();
+    cout << lexer->totalTokens();
+
 
     delete lexer;
 

@@ -7,7 +7,6 @@ void IDAutomaton::S0(const std::string& input) {
     if (isalpha(input[index])) {
         inputRead++;
         index++;
-        myWord += index;
         S1(input);
     }
     else {
@@ -16,27 +15,16 @@ void IDAutomaton::S0(const std::string& input) {
 }
 
 void IDAutomaton::S1(const std::string& input) {
-    if (isalpha(input[index]) || isdigit(input[index])) {
+    if (isalnum(input[index])) {
         inputRead++;
+        index++;
         S1(input);
-        myWord += index;
     }
-    else if (input[index] == '\n') {
-        inputRead++;
-        S2(input);
-        myWord += index;
-    }
-    if (myWord == "Schemes" || //checks keywords
-        myWord == "Facts" ||
-        myWord == "Rules" ||
-        myWord == "Queries") {
+    else if (index == input.size()) {
+        //inputRead++;
         Serr();
     }
     else {
-        Serr();
+        return;
     }
-}
-
-void IDAutomaton::S2(const std::string& input) {
-    return;
 }

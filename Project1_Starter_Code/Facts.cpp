@@ -49,6 +49,7 @@ void FactsAutomaton::S3(const std::string& input) {
 
 void FactsAutomaton::S4(const std::string& input) {
     if (input[index] == 's') {
+        inputRead++;
         return;
     }
     else {
