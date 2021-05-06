@@ -51,7 +51,7 @@ void UndefinedAutomaton::S2(const std::string& input) {
 }
 
 void UndefinedAutomaton::S3(const std::string& input) {
-    if (index == input.size()) {
+    if (index == (int)input.size()) {
         index++;
         inputRead++;
         S6(input);
@@ -156,7 +156,7 @@ void UndefinedAutomaton::S10(const std::string& input) {
 }
 
 void UndefinedAutomaton::S11(const std::string& input) {
-    if (index == input.size()) {
+    if (index == (int)input.size()) {
         return;
     }
     if (input[index] != '|') {
@@ -169,7 +169,7 @@ void UndefinedAutomaton::S11(const std::string& input) {
         inputRead++;
         S12(input);
     }
-    else if (index == input.size()) {
+    else if (index == (int)input.size()) {
         inputRead++;
         S14(input);
     }

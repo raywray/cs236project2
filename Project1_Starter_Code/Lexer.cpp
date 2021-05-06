@@ -16,7 +16,7 @@ Lexer::~Lexer() {
 
 std::string Lexer::toString() {
     stringstream tokenss;
-    for (int i = 0; i < tokens.size(); i++) {
+    for (unsigned int i = 0; i < tokens.size(); i++) {
         tokenss << tokens[i]->toString() << endl;
     }
     return tokenss.str();
@@ -24,7 +24,7 @@ std::string Lexer::toString() {
 
 std::string Lexer::totalTokens() {
     stringstream totalTss;
-    totalTss << "Total Tokens = " << tokens.size() << endl;
+    totalTss << "Total Tokens = " << tokens.size();
     return totalTss.str();
 }
 
@@ -66,7 +66,7 @@ void Lexer::Run(std::string& input) {
             maxRead = 0;
         }
 
-        for (int i = 0; i < automata.size(); i++) {
+        for (unsigned int i = 0; i < automata.size(); i++) {
             int inputRead = automata[i]->Start(input);
             if (inputRead > maxRead) {
                 maxRead = inputRead;

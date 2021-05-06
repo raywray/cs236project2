@@ -20,7 +20,7 @@ void IDAutomaton::S1(const std::string& input) {
         index++;
         S1(input);
     }
-    else if (index == input.size()) {
+    else if (index == (int)input.size()) {
         //inputRead++;
         Serr();
     }

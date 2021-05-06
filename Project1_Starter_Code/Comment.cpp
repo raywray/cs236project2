@@ -80,7 +80,7 @@ void CommentAutomaton::S5(const std::string& input) {
 }
 
 void CommentAutomaton::S6(const std::string& input) {
-    if (index == input.size()) {
+    if (index == (int)input.size()) {
         Serr();
     }
     else if (input[index] == '\n') {
