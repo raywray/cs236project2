@@ -35,7 +35,13 @@ void UndefinedAutomaton::S1(const std::string& input) {
 }
 
 void UndefinedAutomaton::S2(const std::string& input) {
-    if (input[index] != '\'') {
+    if (input[index] == '\n') {
+        newLines++;
+        inputRead++;
+        index++;
+        S3(input);
+    }
+    else if (input[index] != '\'') {
         inputRead++;
         index++;
         S3(input);
