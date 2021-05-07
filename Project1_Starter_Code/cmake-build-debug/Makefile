@@ -277,33 +277,6 @@ Comment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.s
 .PHONY : Comment.cpp.s
 
-EOF.o: EOF.cpp.o
-
-.PHONY : EOF.o
-
-# target to build an object file
-EOF.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o
-.PHONY : EOF.cpp.o
-
-EOF.i: EOF.cpp.i
-
-.PHONY : EOF.i
-
-# target to preprocess a source file
-EOF.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.i
-.PHONY : EOF.cpp.i
-
-EOF.s: EOF.cpp.s
-
-.PHONY : EOF.s
-
-# target to generate assembly for a file
-EOF.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.s
-.PHONY : EOF.cpp.s
-
 Facts.o: Facts.cpp.o
 
 .PHONY : Facts.o
@@ -733,9 +706,6 @@ help:
 	@echo "... Comment.o"
 	@echo "... Comment.i"
 	@echo "... Comment.s"
-	@echo "... EOF.o"
-	@echo "... EOF.i"
-	@echo "... EOF.s"
 	@echo "... Facts.o"
 	@echo "... Facts.i"
 	@echo "... Facts.s"

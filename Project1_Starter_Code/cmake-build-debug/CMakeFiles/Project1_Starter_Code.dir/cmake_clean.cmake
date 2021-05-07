@@ -4,7 +4,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o"
   "CMakeFiles/Project1_Starter_Code.dir/Comma.cpp.o"
   "CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o"
-  "CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o"
   "CMakeFiles/Project1_Starter_Code.dir/Facts.cpp.o"
   "CMakeFiles/Project1_Starter_Code.dir/ID.cpp.o"
   "CMakeFiles/Project1_Starter_Code.dir/LeftParen.cpp.o"

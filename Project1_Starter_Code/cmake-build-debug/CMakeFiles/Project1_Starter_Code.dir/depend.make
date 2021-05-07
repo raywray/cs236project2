@@ -26,11 +26,6 @@ CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o: ../Comment.cpp
 CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o: ../Comment.h
 CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o: ../Token.h
 
-CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o: ../Automaton.h
-CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o: ../EOF.cpp
-CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o: ../EOF.h
-CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o: ../Token.h
-
 CMakeFiles/Project1_Starter_Code.dir/Facts.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Starter_Code.dir/Facts.cpp.o: ../Facts.cpp
 CMakeFiles/Project1_Starter_Code.dir/Facts.cpp.o: ../Facts.h
@@ -52,7 +47,6 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../ColonAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../ColonDashAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../Comma.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../Comment.h
-CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../EOF.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../Facts.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../ID.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../LeftParen.h
@@ -123,7 +117,6 @@ CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../ColonAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../ColonDashAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Comma.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Comment.h
-CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../EOF.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Facts.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../ID.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../LeftParen.h

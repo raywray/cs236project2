@@ -26,11 +26,6 @@ CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comment.cpp
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comment.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Token.h
-CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o
- /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Automaton.h
- /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/EOF.cpp
- /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/EOF.h
- /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/Facts.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Automaton.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Facts.cpp
@@ -53,7 +48,6 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/ColonDashAutomaton.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comma.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comment.h
- /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/EOF.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Facts.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/ID.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/LeftParen.h
@@ -124,7 +118,6 @@ CMakeFiles/Project1_Starter_Code.dir/main.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/ColonDashAutomaton.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comma.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comment.h
- /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/EOF.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Facts.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/ID.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/LeftParen.h

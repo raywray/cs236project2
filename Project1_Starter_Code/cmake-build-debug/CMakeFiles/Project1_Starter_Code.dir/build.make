@@ -310,22 +310,9 @@ CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comment.cpp -o CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.s
 
-CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
-CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o: ../EOF.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o -c /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/EOF.cpp
-
-CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/EOF.cpp > CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.i
-
-CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/EOF.cpp -o CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.s
-
 CMakeFiles/Project1_Starter_Code.dir/StringAuto.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
 CMakeFiles/Project1_Starter_Code.dir/StringAuto.cpp.o: ../StringAuto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/StringAuto.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/StringAuto.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/StringAuto.cpp.o -c /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/StringAuto.cpp
 
 CMakeFiles/Project1_Starter_Code.dir/StringAuto.cpp.i: cmake_force
@@ -338,7 +325,7 @@ CMakeFiles/Project1_Starter_Code.dir/StringAuto.cpp.s: cmake_force
 
 CMakeFiles/Project1_Starter_Code.dir/Undefined.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
 CMakeFiles/Project1_Starter_Code.dir/Undefined.cpp.o: ../Undefined.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Undefined.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Undefined.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/Undefined.cpp.o -c /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Undefined.cpp
 
 CMakeFiles/Project1_Starter_Code.dir/Undefined.cpp.i: cmake_force
@@ -369,7 +356,6 @@ Project1_Starter_Code_OBJECTS = \
 "CMakeFiles/Project1_Starter_Code.dir/Queries.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/ID.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o" \
-"CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/StringAuto.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/Undefined.cpp.o"
 
@@ -394,12 +380,11 @@ Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Rules.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Queries.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/ID.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o
-Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/EOF.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/StringAuto.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Undefined.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/build.make
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable Project1_Starter_Code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Project1_Starter_Code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project1_Starter_Code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -19,7 +19,6 @@
 #include "Queries.h"
 #include "ID.h"
 #include "Comment.h"
-#include "EOF.h"
 #include "StringAuto.h"
 #include "Undefined.h"
 #include "ColonAutomaton.h"
