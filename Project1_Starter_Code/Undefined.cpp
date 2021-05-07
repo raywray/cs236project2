@@ -120,13 +120,27 @@ void UndefinedAutomaton::S7(const std::string& input) {
         index++;
         S8(input);
     }
+    /*else if (input[index] != '|') {
+        inputRead++;
+        index++;
+        S11(input);
+    }*/
     else {
         Serr();
     }
 }
 
 void UndefinedAutomaton::S8(const std::string& input) {
-    if (input[index] != '|') {
+    if (index == (int)input.size()) {
+        return;
+    }
+    else if (input[index] == '\n') {
+        inputRead++;
+        index++;
+        newLines++;
+        S11(input);
+    }
+    else if (input[index] != '|') {
         inputRead++;
         index++;
         S11(input);
@@ -165,7 +179,13 @@ void UndefinedAutomaton::S11(const std::string& input) {
     if (index == (int)input.size()) {
         return;
     }
-    if (input[index] != '|') {
+    if (input[index] == '\n') {
+        inputRead++;
+        index++;
+        newLines++;
+        S11(input);
+    }
+    else if (input[index] != '|') {
         index++;
         inputRead++;
         S11(input);
@@ -175,10 +195,10 @@ void UndefinedAutomaton::S11(const std::string& input) {
         inputRead++;
         S12(input);
     }
-    else if (index == (int)input.size()) {
+    /*else if (index == (int)input.size()) {
         inputRead++;
         S14(input);
-    }
+    }*/
     else {
         Serr();
     }
@@ -191,7 +211,9 @@ void UndefinedAutomaton::S12(const std::string& input) {
         S13(input);
     }
     else {
-        Serr();
+        index++;
+        inputRead++;
+        S11(input);
     }
 }
 
