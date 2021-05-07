@@ -210,6 +210,12 @@ void UndefinedAutomaton::S12(const std::string& input) {
         inputRead++;
         S13(input);
     }
+    else if (input[index] == '\n') {
+        index++;
+        inputRead++;
+        newLines++;
+        S11(input);
+    }
     else {
         index++;
         inputRead++;
