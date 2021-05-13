@@ -113,6 +113,12 @@
 		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comment.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/DatalogProgram.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/DatalogProgram.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Facts.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
@@ -143,10 +149,28 @@
 		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Multiply.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parameter.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parameter.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parser.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parser.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Period.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Period.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Predicate.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Predicate.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/QMark.cpp">
@@ -165,6 +189,12 @@
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/RightParen.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Rule.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Rule.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Rules.cpp">

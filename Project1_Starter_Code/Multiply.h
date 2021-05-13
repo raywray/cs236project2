@@ -4,7 +4,7 @@
 
 #ifndef PROJECT1_STARTER_CODE_MULTIPLY_H
 #define PROJECT1_STARTER_CODE_MULTIPLY_H
-
+#pragma once
 
 #include "Automaton.h"
 

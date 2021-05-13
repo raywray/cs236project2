@@ -2,8 +2,6 @@
 // Created by Raya Esplin on 5/3/21.
 //
 
-//TODO: NEED TO WORK ON
-
 #include "Undefined.h"
 
 void UndefinedAutomaton::S0(const std::string& input) {

@@ -1,11 +1,11 @@
 #ifndef TOKEN_H
 #define TOKEN_H
+#pragma once
 #include <string>
 
 enum class TokenType {
     COLON,
     COLON_DASH,
-    // TODO: add the other types of tokens
     UNDEFINED,
     EOF_TYPE,
     ID,
@@ -27,7 +27,6 @@ enum class TokenType {
 class Token
 {
 private:
-    // TODO: add member variables for information needed by Token
     std::string description = "";
     int line;
     TokenType type;
@@ -35,10 +34,13 @@ private:
 public:
     Token(TokenType type, std::string description, int line);
 
-    // TODO: add other needed methods
     std::string toString();
-    //void SetValues(std::string token, int lineNumber);
-    //void SetComplexValues(std::string type, std::string token, int lineNumber)
+
+    TokenType getToken();
+
+    std::string getTokenString();
+    std::string getDescription();
+    int getLine();
 
 };
 

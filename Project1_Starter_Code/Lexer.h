@@ -1,6 +1,6 @@
 #ifndef LEXER_H
 #define LEXER_H
-
+#pragma once
 #include <list>
 #include <vector>
 
@@ -32,7 +32,7 @@ private:
     std::vector<Token*> tokens;
     void CreateAutomata();
 
-    // TODO: add any other private methods here (if needed)
+
 
 public:
     Lexer();
@@ -41,8 +41,10 @@ public:
     void Run(std::string& input);
     std::string toString();
     std::string totalTokens();
+    std::vector<Token*> getTokens();
+
     
-    // TODO: add other public methods here
+
 
 };
 

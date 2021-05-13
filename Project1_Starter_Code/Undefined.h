@@ -4,7 +4,7 @@
 
 #ifndef PROJECT1_STARTER_CODE_UNDEFINED_H
 #define PROJECT1_STARTER_CODE_UNDEFINED_H
-
+#pragma once
 
 #include "Automaton.h"
 

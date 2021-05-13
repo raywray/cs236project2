@@ -4,7 +4,7 @@
 
 #ifndef PROJECT1_STARTER_CODE_STRINGAUTO_H
 #define PROJECT1_STARTER_CODE_STRINGAUTO_H
-
+#pragma once
 #include "Automaton.h"
 
 class StringAutomaton : public Automaton

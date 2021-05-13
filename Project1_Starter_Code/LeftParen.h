@@ -4,7 +4,7 @@
 
 #ifndef PROJECT1_STARTER_CODE_LEFTPAREN_H
 #define PROJECT1_STARTER_CODE_LEFTPAREN_H
-
+#pragma once
 #include "Automaton.h"
 
 class LeftParenAutomaton : public Automaton

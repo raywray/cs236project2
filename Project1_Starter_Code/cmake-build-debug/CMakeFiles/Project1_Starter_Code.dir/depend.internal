@@ -26,6 +26,12 @@ CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comment.cpp
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comment.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/DatalogProgram.cpp
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/DatalogProgram.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parameter.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Predicate.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Rule.h
 CMakeFiles/Project1_Starter_Code.dir/Facts.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Automaton.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Facts.cpp
@@ -68,11 +74,26 @@ CMakeFiles/Project1_Starter_Code.dir/Multiply.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Multiply.cpp
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Multiply.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parameter.cpp
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parameter.h
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/DatalogProgram.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parameter.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parser.cpp
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parser.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Predicate.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Rule.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/Period.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Automaton.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Period.cpp
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Period.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parameter.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Predicate.cpp
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Predicate.h
 CMakeFiles/Project1_Starter_Code.dir/QMark.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Automaton.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/QMark.cpp
@@ -88,6 +109,11 @@ CMakeFiles/Project1_Starter_Code.dir/RightParen.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/RightParen.cpp
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/RightParen.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parameter.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Predicate.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Rule.cpp
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Rule.h
 CMakeFiles/Project1_Starter_Code.dir/Rules.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Automaton.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Rules.cpp
@@ -118,15 +144,20 @@ CMakeFiles/Project1_Starter_Code.dir/main.cpp.o
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/ColonDashAutomaton.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comma.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Comment.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/DatalogProgram.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Facts.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/ID.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/LeftParen.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Lexer.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Multiply.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parameter.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Parser.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Period.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Predicate.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/QMark.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Queries.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/RightParen.h
+ /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Rule.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Rules.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/Schemes.h
  /Users/rayaesplin/Desktop/CS236/project1/Project1_Starter_Code/StringAuto.h

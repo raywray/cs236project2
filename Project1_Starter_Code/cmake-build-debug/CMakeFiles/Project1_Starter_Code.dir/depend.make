@@ -26,6 +26,12 @@ CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o: ../Comment.cpp
 CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o: ../Comment.h
 CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.o: ../Token.h
 
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o: ../DatalogProgram.h
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o: ../Parameter.h
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o: ../Predicate.h
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o: ../Rule.h
+
 CMakeFiles/Project1_Starter_Code.dir/Facts.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Starter_Code.dir/Facts.cpp.o: ../Facts.cpp
 CMakeFiles/Project1_Starter_Code.dir/Facts.cpp.o: ../Facts.h
@@ -68,10 +74,25 @@ CMakeFiles/Project1_Starter_Code.dir/Multiply.cpp.o: ../Multiply.cpp
 CMakeFiles/Project1_Starter_Code.dir/Multiply.cpp.o: ../Multiply.h
 CMakeFiles/Project1_Starter_Code.dir/Multiply.cpp.o: ../Token.h
 
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o: ../Parameter.cpp
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o: ../Parameter.h
+
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o: ../DatalogProgram.h
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o: ../Parameter.h
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o: ../Parser.cpp
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o: ../Parser.h
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o: ../Predicate.h
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o: ../Rule.h
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o: ../Token.h
+
 CMakeFiles/Project1_Starter_Code.dir/Period.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Starter_Code.dir/Period.cpp.o: ../Period.cpp
 CMakeFiles/Project1_Starter_Code.dir/Period.cpp.o: ../Period.h
 CMakeFiles/Project1_Starter_Code.dir/Period.cpp.o: ../Token.h
+
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o: ../Parameter.h
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o: ../Predicate.cpp
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o: ../Predicate.h
 
 CMakeFiles/Project1_Starter_Code.dir/QMark.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Starter_Code.dir/QMark.cpp.o: ../QMark.cpp
@@ -87,6 +108,11 @@ CMakeFiles/Project1_Starter_Code.dir/RightParen.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Starter_Code.dir/RightParen.cpp.o: ../RightParen.cpp
 CMakeFiles/Project1_Starter_Code.dir/RightParen.cpp.o: ../RightParen.h
 CMakeFiles/Project1_Starter_Code.dir/RightParen.cpp.o: ../Token.h
+
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o: ../Parameter.h
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o: ../Predicate.h
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o: ../Rule.cpp
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o: ../Rule.h
 
 CMakeFiles/Project1_Starter_Code.dir/Rules.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Starter_Code.dir/Rules.cpp.o: ../Rules.cpp
@@ -117,15 +143,20 @@ CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../ColonAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../ColonDashAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Comma.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Comment.h
+CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../DatalogProgram.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Facts.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../ID.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../LeftParen.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Lexer.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Multiply.h
+CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Parameter.h
+CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Parser.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Period.h
+CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Predicate.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../QMark.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Queries.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../RightParen.h
+CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Rule.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Rules.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../Schemes.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: ../StringAuto.h

@@ -4,7 +4,7 @@
 
 #ifndef PROJECT1_STARTER_CODE_QMARK_H
 #define PROJECT1_STARTER_CODE_QMARK_H
-
+#pragma once
 #include "Automaton.h"
 
 class QMarkAutomaton : public Automaton

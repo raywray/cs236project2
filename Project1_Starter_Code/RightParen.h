@@ -6,7 +6,7 @@
 #define PROJECT1_STARTER_CODE_RIGHTPAREN_H
 
 #include "Automaton.h"
-
+#pragma once
 class RightParenAutomaton : public Automaton
 {
 public:

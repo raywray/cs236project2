@@ -4,7 +4,7 @@
 
 #ifndef PROJECT1_STARTER_CODE_ID_H
 #define PROJECT1_STARTER_CODE_ID_H
-
+#pragma once
 #include "Automaton.h"
 
 class IDAutomaton : public Automaton

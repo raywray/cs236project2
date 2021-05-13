@@ -277,6 +277,33 @@ Comment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Comment.cpp.s
 .PHONY : Comment.cpp.s
 
+DatalogProgram.o: DatalogProgram.cpp.o
+
+.PHONY : DatalogProgram.o
+
+# target to build an object file
+DatalogProgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o
+.PHONY : DatalogProgram.cpp.o
+
+DatalogProgram.i: DatalogProgram.cpp.i
+
+.PHONY : DatalogProgram.i
+
+# target to preprocess a source file
+DatalogProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.i
+.PHONY : DatalogProgram.cpp.i
+
+DatalogProgram.s: DatalogProgram.cpp.s
+
+.PHONY : DatalogProgram.s
+
+# target to generate assembly for a file
+DatalogProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.s
+.PHONY : DatalogProgram.cpp.s
+
 Facts.o: Facts.cpp.o
 
 .PHONY : Facts.o
@@ -412,6 +439,60 @@ Multiply.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Multiply.cpp.s
 .PHONY : Multiply.cpp.s
 
+Parameter.o: Parameter.cpp.o
+
+.PHONY : Parameter.o
+
+# target to build an object file
+Parameter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o
+.PHONY : Parameter.cpp.o
+
+Parameter.i: Parameter.cpp.i
+
+.PHONY : Parameter.i
+
+# target to preprocess a source file
+Parameter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.i
+.PHONY : Parameter.cpp.i
+
+Parameter.s: Parameter.cpp.s
+
+.PHONY : Parameter.s
+
+# target to generate assembly for a file
+Parameter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.s
+.PHONY : Parameter.cpp.s
+
+Parser.o: Parser.cpp.o
+
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
+
+Parser.i: Parser.cpp.i
+
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
+
 Period.o: Period.cpp.o
 
 .PHONY : Period.o
@@ -438,6 +519,33 @@ Period.s: Period.cpp.s
 Period.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Period.cpp.s
 .PHONY : Period.cpp.s
+
+Predicate.o: Predicate.cpp.o
+
+.PHONY : Predicate.o
+
+# target to build an object file
+Predicate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o
+.PHONY : Predicate.cpp.o
+
+Predicate.i: Predicate.cpp.i
+
+.PHONY : Predicate.i
+
+# target to preprocess a source file
+Predicate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.i
+.PHONY : Predicate.cpp.i
+
+Predicate.s: Predicate.cpp.s
+
+.PHONY : Predicate.s
+
+# target to generate assembly for a file
+Predicate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.s
+.PHONY : Predicate.cpp.s
 
 QMark.o: QMark.cpp.o
 
@@ -519,6 +627,33 @@ RightParen.s: RightParen.cpp.s
 RightParen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/RightParen.cpp.s
 .PHONY : RightParen.cpp.s
+
+Rule.o: Rule.cpp.o
+
+.PHONY : Rule.o
+
+# target to build an object file
+Rule.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o
+.PHONY : Rule.cpp.o
+
+Rule.i: Rule.cpp.i
+
+.PHONY : Rule.i
+
+# target to preprocess a source file
+Rule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.i
+.PHONY : Rule.cpp.i
+
+Rule.s: Rule.cpp.s
+
+.PHONY : Rule.s
+
+# target to generate assembly for a file
+Rule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.s
+.PHONY : Rule.cpp.s
 
 Rules.o: Rules.cpp.o
 
@@ -706,6 +841,9 @@ help:
 	@echo "... Comment.o"
 	@echo "... Comment.i"
 	@echo "... Comment.s"
+	@echo "... DatalogProgram.o"
+	@echo "... DatalogProgram.i"
+	@echo "... DatalogProgram.s"
 	@echo "... Facts.o"
 	@echo "... Facts.i"
 	@echo "... Facts.s"
@@ -721,9 +859,18 @@ help:
 	@echo "... Multiply.o"
 	@echo "... Multiply.i"
 	@echo "... Multiply.s"
+	@echo "... Parameter.o"
+	@echo "... Parameter.i"
+	@echo "... Parameter.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
 	@echo "... Period.o"
 	@echo "... Period.i"
 	@echo "... Period.s"
+	@echo "... Predicate.o"
+	@echo "... Predicate.i"
+	@echo "... Predicate.s"
 	@echo "... QMark.o"
 	@echo "... QMark.i"
 	@echo "... QMark.s"
@@ -733,6 +880,9 @@ help:
 	@echo "... RightParen.o"
 	@echo "... RightParen.i"
 	@echo "... RightParen.s"
+	@echo "... Rule.o"
+	@echo "... Rule.i"
+	@echo "... Rule.s"
 	@echo "... Rules.o"
 	@echo "... Rules.i"
 	@echo "... Rules.s"

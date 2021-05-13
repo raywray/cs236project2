@@ -4,7 +4,7 @@
 
 #ifndef PROJECT1_STARTER_CODE_QUERIES_H
 #define PROJECT1_STARTER_CODE_QUERIES_H
-
+#pragma once
 #include "Automaton.h"
 
 class QueriesAutomaton : public Automaton

@@ -6,7 +6,7 @@
 #define PROJECT1_STARTER_CODE_RULES_H
 
 #include "Automaton.h"
-
+#pragma once
 class RulesAutomaton : public Automaton
 {
 private:

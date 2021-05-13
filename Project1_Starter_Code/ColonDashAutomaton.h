@@ -1,6 +1,6 @@
 #ifndef COLONDASHAUTOMATON_H
 #define COLONDASHAUTOMATON_H
-
+#pragma once
 #include "Automaton.h"
 
 class ColonDashAutomaton : public Automaton

@@ -11,7 +11,6 @@ Lexer::Lexer() {
 }
 
 Lexer::~Lexer() {
-    // TODO: need to clean up the memory in `automata` and `tokens`
 }
 
 std::string Lexer::toString() {
@@ -28,10 +27,13 @@ std::string Lexer::totalTokens() {
     return totalTss.str();
 }
 
+std::vector<Token*> Lexer::getTokens() {
+    return(tokens);
+}
+
 void Lexer::CreateAutomata() {
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
-    // TODO: Add the other needed automata here
     automata.push_back(new AddAutomaton());
     automata.push_back(new CommaAutomaton());
     automata.push_back(new LeftParenAutomaton());
@@ -46,12 +48,10 @@ void Lexer::CreateAutomata() {
     automata.push_back(new CommentAutomaton());
     automata.push_back(new StringAutomaton());
     automata.push_back(new IDAutomaton());
-    //automata.push_back(new EOFAutomaton());
     automata.push_back(new UndefinedAutomaton());
 }
 
 void Lexer::Run(std::string& input) {
-    // TODO: convert this pseudo-code with the algorithm into actual C++ code
     int lineNumber = 1;
     while (input.size() > 0) {
         int maxRead = 0;
@@ -70,13 +70,15 @@ void Lexer::Run(std::string& input) {
             int inputRead = automata[i]->Start(input);
             if (inputRead > maxRead) {
                 maxRead = inputRead;
-                maxAutomaton = automata[i]; //look here
+                maxAutomaton = automata[i];
             }
         }
         if (maxRead > 0) {
             Token *newToken = maxAutomaton->CreateToken(input.substr(0, maxRead), lineNumber);
             lineNumber += maxAutomaton->NewLinesRead();
-            tokens.push_back(newToken);
+            if (newToken->getToken() != TokenType::COMMENT) {
+                tokens.push_back(newToken);
+            }
             input.erase(0, maxRead);
         } else {
             maxRead = 1;
@@ -85,7 +87,6 @@ void Lexer::Run(std::string& input) {
             input.erase(0, maxRead);
         }
 
-        // TODO: you need to handle whitespace inbetween tokens
         //Delete Whitespace!
         while(isspace(input[0])) {
             if (input[0] == '\n') {

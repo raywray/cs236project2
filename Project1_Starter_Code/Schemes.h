@@ -6,7 +6,7 @@
 #define PROJECT1_STARTER_CODE_SCHEMES_H
 
 #include "Automaton.h"
-
+#pragma once
 class SchemesAutomaton : public Automaton
 {
 private:

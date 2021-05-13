@@ -1,7 +1,7 @@
 //
 // Created by Raya Esplin on 5/3/21.
 //
-
+#pragma once
 #ifndef PROJECT1_STARTER_CODE_COMMENT_H
 #define PROJECT1_STARTER_CODE_COMMENT_H
 

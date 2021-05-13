@@ -1,6 +1,7 @@
 #ifndef AUTOMATON_H
 #define AUTOMATON_H
 #include "Token.h"
+#pragma once
 
 class Automaton
 {
