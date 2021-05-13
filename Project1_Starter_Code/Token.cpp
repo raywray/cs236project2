@@ -116,6 +116,7 @@ std::string Token::getTokenString() {
         case TokenType::ADD: return "ADD"; break;
         case TokenType::EOF_TYPE: return "EOF"; break;
     }
+    return nullptr;
 }
 
 std::string Token::getDescription() {
